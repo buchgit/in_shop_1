@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Магазин</string>
+    <string name="hello_blank_fragment">blank fragment</string>
+    <string name="swipe_left_for_register">Сдвиньте влево для регистрации</string>
+    <string name="login">Вход</string>
+    <string name="password">Пароль</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Хорошего дня! \nБудьте нашим постоянным клиентом</string>
+    <string name="swipe_right_for_login">Сдвиньте вправо для авторизации</string>
+    <string name="register">Регистрация</string>
+    <string name="re_type_password">Повторно пароль</string>
+    <string name="your_name">Полное имя</string>
+</resources>
+
+<!--<resources>-->
+<!--    <string name="app_name">in_shop_1</string>-->
+<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+<!--    <string name="swipe_left_for_register">Swipe Left for Register</string>-->
+<!--    <string name="login">Login</string>-->
+<!--    <string name="password">Password</string>-->
+<!--    <string name="e_mail">Email</string>-->
+<!--    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>-->
+<!--    <string name="swipe_right_for_login">Swipe Right for Login</string>-->
+<!--    <string name="register">Register</string>-->
+<!--    <string name="re_type_password">Re-type Password</string>-->
+<!--    <string name="your_name">Full Name</string>-->
+<!--</resources>-->
