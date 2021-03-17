@@ -12,5 +12,10 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    
+    <style name="splashScreenTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_brand</item>
+        <item name="android:statusBarColor">@color/colorBlack</item>
+    </style>
 
 </resources>

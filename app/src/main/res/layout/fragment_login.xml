@@ -9,11 +9,14 @@
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textSize="50sp"
-            android:fontFamily="@font/indie_flower"
+            android:text="@string/enter_your_name"
+            android:textSize="25sp"
+            android:fontFamily="@font/roboto_slab_thin"
+            android:textStyle="bold"
+            android:textColor="@color/colorTitle"
             android:layout_marginStart="25dp"
             android:layout_marginBottom="12dp"
+            android:layout_marginTop="20dp"
             android:layout_above="@id/tv_subtitle"/>
     <TextView
             android:id="@+id/tv_subtitle"
@@ -21,9 +24,9 @@
             android:layout_height="wrap_content"
             android:text="@string/tag"
             android:textSize="17sp"
-            android:fontFamily="@font/roboto_thin"
+            android:fontFamily="@font/roboto_slab_thin"
             android:layout_marginStart="25dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="88dp"
             android:layout_above="@id/et_email"/>
     
     <EditText
@@ -35,7 +38,8 @@
             android:layout_marginRight="20dp"
             android:padding="15dp"
             android:inputType="textEmailAddress"
-            android:fontFamily="@font/roboto_thin"
+            android:fontFamily="@font/roboto_slab_thin"
+            android:textStyle="bold|italic"
             android:layout_above="@id/et_password"
             android:background="@drawable/et_custom"
             android:textSize="15sp"/>
@@ -49,7 +53,8 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:padding="15dp"
-            android:fontFamily="@font/roboto_thin"
+            android:fontFamily="@font/roboto_slab_thin"
+            android:textStyle="bold|italic"
             android:inputType="textPassword"
             android:layout_centerInParent="true"
             android:background="@drawable/et_custom"
@@ -61,10 +66,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/et_password"
             android:background="@drawable/btn_custom"
+            android:textStyle="bold"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
-            android:fontFamily="@font/roboto_thin"
+            android:fontFamily="@font/roboto_slab_thin"
             android:textColor="@android:color/white"
             android:text="@string/login"/>
     
@@ -81,7 +87,8 @@
             android:layout_height="wrap_content"
             android:text="@string/swipe_left_for_register"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_thin"
+            android:fontFamily="@font/roboto_slab_thin"
+            android:textStyle="bold|italic"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="20dp"/>
